@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  /* Ajusta la ruta '../assets/tu-imagen.jpg' dependiendo de dónde esté tu index.css */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.65), 
+      rgba(255, 255, 255, 0.65)
+    ), 
+    url('./assets/img/windows.jpg'); /* O '../assets/tu-imagen.jpg' según tu estructura */
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto hace que el fondo sea fijo al hacer scroll */
+  min-height: 100vh;
+  font-family: Lato, sans-serif; /* Opcional: para mantener una tipografía limpia */
+}
