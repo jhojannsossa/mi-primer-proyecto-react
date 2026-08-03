@@ -10,8 +10,9 @@
 }
 
 .imagen-testimonio {
-    height: 100%;
-    width: auto;
+  width: 250px;       /* Ajusta este valor según el ancho que prefieras */
+  height: 100%;       /* Ocupará toda la altura del contenedor (368px) */
+  object-fit: cover;  /* Recorta la imagen proporcionalmente para que llene el espacio sin deformarse */
 }
 
 .contenedor-texto-testimonio {

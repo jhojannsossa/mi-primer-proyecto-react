@@ -12,22 +12,22 @@ function Testimonio(props) {
     <div className='contenedor-testimonio'>
       <img
         className='imagen-testimonio'
-       /* src={emma}*/
+       
         src={imagenes[`../assets/img/${props.imagen}.jpg`]}
-        /*alt='foto de emma'*/ 
+        
         alt={`Foto de ${props.nombre}`}
       />
       <div className='contenedor-texto-testimonio'>
         <p className='nombre-testimonio'>
-          /*Emma Bostian*/
+         
           <strong>{props.nombre}</strong> en {props.pais}
         </p>
         <p className='cargo-testimonio'>
-        /*Ingeniera de Software en Spotify*/
+        
           {props.cargo} en <strong>{props.empresa}</strong>
         </p>
         <p className='texto-testimonio'>
-        /*Lorem Ipsum*/
+       
           "{props.testimonio}"
         </p>
       </div>
