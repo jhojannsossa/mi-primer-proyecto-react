@@ -1,9 +1,9 @@
-import erica from '../assets/img/erica.jpeg';
-import jhojann from '../assets/img/jhojann.jpeg';
-import jonathan from '../assets/img/jonathan.jpeg';
+import erica from '../assets/img/erica.jpg';
+import jhojann from '../assets/img/jhojann.jpg';
+import jonathan from '../assets/img/jonathan.jpg';
 import '../styles/Testimonio.css';
 
-const imagenes = import.meta.glob('../assets/img/*.jpeg', {
+const imagenes = import.meta.glob('../assets/img/*.jpg', {
   eager: true,
   import: 'default'
 });
@@ -13,7 +13,7 @@ function Testimonio(props) {
       <img
         className='imagen-testimonio'
        /* src={emma}*/
-        src={imagenes[`../assets/img/${props.imagen}.jpeg`]}
+        src={imagenes[`../assets/img/${props.imagen}.jpg`]}
         /*alt='foto de emma'*/ 
         alt={`Foto de ${props.nombre}`}
       />
