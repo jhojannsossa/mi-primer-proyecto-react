@@ -1,6 +1,5 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Saludo from "./components/Saludo";
 import Testimonio from "./components/Testimonio";
 
 function App() {
@@ -35,7 +34,6 @@ function App() {
           testimonio='he empezado a desarrollar de manera muy principiente, pero he desarrollado habilidades que han mejorado mi competitividad extraordinariamente permitiendome avanzar en focalizar mis propios objetivos personales y de trabajo, a la fecha he conquistado muchos espacios de formacion y trabajo con estos conocientos adquiridos en el ButCam'
         />
       </div>
-      <Saludo />
       <Footer />
     </>
   );
