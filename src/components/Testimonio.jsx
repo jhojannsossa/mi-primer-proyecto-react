@@ -1,7 +1,7 @@
 import erica from '../assets/img/erica.jpg';
 import jhojann from '../assets/img/jhojann.jpg';
 import jonathan from '../assets/img/jonathan.jpg';
-import '../styles/Testimonio.css';
+import '../styles/testimonio.css';
 
 const imagenes = import.meta.glob('../assets/img/*.jpg', {
   eager: true,
