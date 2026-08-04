@@ -1,4 +1,5 @@
 🚀 Mi Primera App en React - Testimonios
+
 ¡Bienvenido a mi proyecto de testimonios desarrollado con React, Vite, HTML y CSS! Esta aplicación forma parte de mi camino como desarrollador web front-end, mostrando experiencias reales de alumnos y su evolución profesional.
 
 📸 Vista Previa del Proyecto
@@ -58,7 +59,7 @@ Inicia el servidor de desarrollo:
 
 Bash
 npm run dev
-Abre tu navegador e ingresa a http://localhost:5173.
+Abre tu navegador e ingresa a http://localhost:5175.
 
 🌐 Enlace en Vivo
 Pronto podrás ver este proyecto desplegado y funcionando en producción a través de Vercel.
